@@ -1,5 +1,5 @@
 import { ChangeDetectionStrategy, Component } from '@angular/core';
-import { iGoogleFont } from 'projects/ngx-google-fonts-lib/src/lib/models/google-font';
+import { iGoogleFont } from 'projects/ngx-google-fonts2-lib/src/lib/models/google-font';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({

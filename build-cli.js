@@ -35,7 +35,7 @@ function buildLib(libName) {
         stdio: [0, 1, 2],
     };
     try {
-        execSync(`ng build ${libName} --prod`, opts);
+        execSync(`ng build ${libName}`, opts);
     } catch (err) {
         console.log("ec", exitCode);
         console.error(`Error building project, check output above!`);

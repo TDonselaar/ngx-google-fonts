@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { ByteThisNgxGoogleFontsModule } from 'projects/ngx-google-fonts-lib/src/public-api';
+import { ByteThisNgxGoogleFontsModule } from 'projects/ngx-google-fonts2-lib/src/public-api';
 
 import { AppComponent } from './app.component';
 

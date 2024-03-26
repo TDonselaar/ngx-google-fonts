@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/ngx-google-fonts",
+            "outputPath": "dist/ngx-google-fonts2",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -104,23 +104,23 @@
         }
       }
     },
-    "ngx-google-fonts-lib": {
+    "ngx-google-fonts2-lib": {
       "projectType": "library",
-      "root": "projects/ngx-google-fonts-lib",
-      "sourceRoot": "projects/ngx-google-fonts-lib/src",
+      "root": "projects/ngx-google-fonts2-lib",
+      "sourceRoot": "projects/ngx-google-fonts2-lib/src",
       "prefix": "lib",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/ngx-google-fonts-lib/ng-package.json"
+            "project": "projects/ngx-google-fonts2-lib/ng-package.json"
           },
           "configurations": {
             "production": {
-              "tsConfig": "projects/ngx-google-fonts-lib/tsconfig.lib.prod.json"
+              "tsConfig": "projects/ngx-google-fonts2-lib/tsconfig.lib.prod.json"
             },
             "development": {
-              "tsConfig": "projects/ngx-google-fonts-lib/tsconfig.lib.json"
+              "tsConfig": "projects/ngx-google-fonts2-lib/tsconfig.lib.json"
             }
           },
           "defaultConfiguration": "production"
@@ -128,13 +128,13 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/ngx-google-fonts-lib/src/test.ts",
-            "tsConfig": "projects/ngx-google-fonts-lib/tsconfig.spec.json",
-            "karmaConfig": "projects/ngx-google-fonts-lib/karma.conf.js"
+            "main": "projects/ngx-google-fonts2-lib/src/test.ts",
+            "tsConfig": "projects/ngx-google-fonts2-lib/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-google-fonts2-lib/karma.conf.js"
           }
         }
       }
     }
   },
-  "defaultProject": "ngx-google-fonts"
+  "defaultProject": "ngx-google-fonts2"
 }

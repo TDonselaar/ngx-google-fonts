@@ -25,7 +25,7 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, '../../coverage/ngx-google-fonts-lib'),
+      dir: require('path').join(__dirname, '../../coverage/ngx-google-fonts2-lib'),
       subdir: '.',
       reporters: [
         { type: 'html' },

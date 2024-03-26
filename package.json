@@ -1,13 +1,13 @@
 {
   "name": "ngx-google-fonts2",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "node build-cli.js build-lib ngx-google-fonts-lib",
+    "build": "node build-cli.js build-lib ngx-google-fonts2-lib",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "publish:npm": "node build-cli.js publish-lib ngx-google-fonts-lib"
+    "publish:npm": "node build-cli.js publish-lib ngx-google-fonts2-lib"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,7 @@
     "@byte-this/collections": "^1.0.47",
     "@byte-this/funscript": "^1.0.22",
     "rxjs": "~7.4.0",
-    "tslib": "^2.3.0",
+    "tslib": "^2.6.2",
     "webfontloader": "^1.6.28",
     "zone.js": "~0.11.4"
   },
@@ -42,7 +42,7 @@
     "karma-coverage": "~2.1.0",
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
-    "ng-packagr": "^13.0.0",
-    "typescript": "~4.5.2"
+    "ng-packagr": "^15.2.0",
+    "typescript": "~4.8.2"
   }
 }
