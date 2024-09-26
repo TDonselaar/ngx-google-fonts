@@ -1,6 +1,6 @@
 {
     "name": "@tdonselaar/ngx-google-fonts2",
-    "version": "0.0.18",
+    "version": "0.0.19",
     "peerDependencies": {
         "@angular/common": "^15.2.0",
         "@angular/core": "^15.2.0",
